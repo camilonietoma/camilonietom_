@@ -1,36 +1,29 @@
 baseURL: "https://camilonietoma.github.io/camilonietom_/" 
 title: Camilo Nieto-Matiz
 theme: PaperMod
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
   pagerSize: 20
-
 taxonomies:
     tag: tags
-
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Research
           url: papers/
-          weight: 2
-        - name: Courses
+          weight: 1
+        - name: Teaching
           url: courses/
+          weight: 2
+        - name: CV
+          url: cv.pdf
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
-
+        - name: Contact
+          url: /#contact
+          weight: 4
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "Camilo Nieto-Matiz is an Assistant Professor of Political Science at the University of Texas at San Antonio, studying political violence, state building, and transitional justice in Latin America."
+    author: Camilo Nieto-Matiz
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -44,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers","courses"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,61 +47,38 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Camilo Nieto-Matiz
+          subtitle: "I am an Assistant Professor in the Department of Political Science at the University of Texas at San Antonio. My research explores political violence, state building, criminal governance, and transitional justice in Latin America. I investigate why some societies experience major outbreaks of violence, how state institutions and criminal groups operate during periods of conflict, and the mechanisms through which societies address human rights violations and rebuild governance after war."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: Research
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
+            - name: Teaching
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-
+            - name: CV
+              url: cv.pdf
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:camilo.nietomatiz@utsa.edu
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/YOUR_PROFILE
+        - name: ORCID
+          url: https://orcid.org/YOUR_ORCID
         - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
-
+          url: https://twitter.com/YOUR_HANDLE
     assets:
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Camilo Nieto-Matiz"
       icon: favicon.ico
       iconHeight: 18
-
 markup:
     goldmark:
         renderer:
