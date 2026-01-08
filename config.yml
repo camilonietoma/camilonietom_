@@ -9,9 +9,12 @@ taxonomies:
     tag: tags
 menu:
     main:
-        - name: Research
-          url: papers/
+        - name: Publications
+          url: publications/
           weight: 1
+        - name: Work in Progress
+          url: working/
+          weight: 2
         - name: Teaching
           url: courses/
           weight: 2
