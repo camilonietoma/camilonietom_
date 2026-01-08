@@ -17,13 +17,13 @@ menu:
           weight: 2
         - name: Teaching
           url: courses/
-          weight: 2
+          weight: 3
         - name: CV
           url: cv.pdf
-          weight: 3
+          weight: 4
         - name: Contact
           url: /#contact
-          weight: 4
+          weight: 5
 params:
     description: "Camilo Nieto-Matiz is an Assistant Professor of Political Science at the University of Texas at San Antonio, studying political violence, state building, and transitional justice in Latin America."
     author: Camilo Nieto-Matiz
@@ -56,8 +56,10 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Research
-              url: papers/
+            - name: Publications
+              url: publications/
+            - name: Work in progress
+              url: working/
             - name: Teaching
               url: courses/
             - name: CV
